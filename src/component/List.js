@@ -16,38 +16,38 @@ const List = () => {
           </div>
           <nav>
             <div className="list">
-              <NavLink exact
+              <NavLink 
                 to="/"
                 className="ListItems"
-                activeClassName="activeItem"
+                exact activeClassName="is-active"
               >
                 Home
               </NavLink>
               <NavLink
                 to="about"
                 className="ListItems"
-                activeClassName="activeItem"
+                activeClassName="is-active"
               >
                 About
               </NavLink>
               <NavLink
                 to="services"
                 className="ListItems"
-                activeClassName="activeItem"
+                activeClassName="is-active"
               >
                 Services
               </NavLink>
               <NavLink
                 to="contact"
                 className="ListItems"
-                activeClassName="activeItem"
+                activeClassName="is-active"
               >
                 Contact
               </NavLink>
               <NavLink
                 to="policy"
                 className="ListItems"
-                activeClassName="activeItem"
+                activeClassName="is-active"
               >
                 Policy
               </NavLink>
