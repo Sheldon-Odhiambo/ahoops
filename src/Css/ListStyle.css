@@ -16,8 +16,12 @@ header {
   align-items: center;
 }
 .logo {
-  width: 100px;
+  width: 130px;
   padding: 0.5em 0;
+}
+.list{
+    display: flex;
+
 }
 .ListItems {
   margin-left: 2em;
@@ -28,4 +32,49 @@ header {
 }
 .is-active {
   background-color: orange;
+  border-bottom: 0.1rem double white;
 }
+.icon {
+  color: beige;
+  font-size: 1.5rem !important;
+  margin-left: 1em;
+  margin-right: 1.5em;
+}
+@media screen and (max-width: 1100px) {
+  .icon {
+    margin-right: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+  .container-flex {
+    flex-direction: column;
+  }
+  .logo {
+    width: 110px;
+  }
+  .icon{
+    margin: 1em 1.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 11px;
+  }
+  .list{
+    flex-direction: column;
+
+  }
+.ListItems{
+    margin-top: 2em;
+}
+.logo{
+    width: 90px; ;
+}
+
+}
+
