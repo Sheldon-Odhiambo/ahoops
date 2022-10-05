@@ -4,6 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import Logo from "./icon.jpg"
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import PhoneIcon from "@mui/icons-material/Phone";
+import "../Css/ListStyle.css";
 
 const List = () => {
   return (
@@ -15,7 +16,7 @@ const List = () => {
           </div>
           <nav>
             <div className="list">
-              <NavLink
+              <NavLink exact
                 to="/"
                 className="ListItems"
                 activeClassName="activeItem"
@@ -27,7 +28,7 @@ const List = () => {
                 className="ListItems"
                 activeClassName="activeItem"
               >
-                about
+                About
               </NavLink>
               <NavLink
                 to="services"
