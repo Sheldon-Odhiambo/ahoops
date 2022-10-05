@@ -3,11 +3,11 @@ import TwitterIcon from "./Twitter.jpg";
 import LinkedInIcon from "./linkedin.jpg";
 import InstagramIcon from "./instagram.jpg";
 import FacebookIcon from "./facebook.jpg";
+import "../Css/FooterStyle.css";
 
 const Footer = () => {
   return (
     <>
-      <footer>
         <div className="container container-flex">
           <div className="icons">
             <TwitterIcon className="icon" />
@@ -24,7 +24,6 @@ const Footer = () => {
             <p>Made with love by Mitch</p>
           </div>
         </div>
-      </footer>
     </>
   );
 };

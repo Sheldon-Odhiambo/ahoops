@@ -16,47 +16,43 @@ const List = () => {
           </div>
           <nav>
             <div className="list">
-              <NavLink 
-                to="/"
-                className="ListItems"
-                exact activeClassName="is-active"
-              >
+              <NavLink  to="/" className="ListItems">
                 Home
               </NavLink>
               <NavLink
+                
                 to="about"
                 className="ListItems"
-                activeClassName="is-active"
               >
                 About
               </NavLink>
               <NavLink
+                
                 to="services"
                 className="ListItems"
-                activeClassName="is-active"
               >
                 Services
               </NavLink>
               <NavLink
+                
                 to="contact"
                 className="ListItems"
-                activeClassName="is-active"
               >
                 Contact
               </NavLink>
               <NavLink
+                
                 to="policy"
                 className="ListItems"
-                activeClassName="is-active"
               >
                 Policy
               </NavLink>
             </div>
           </nav>
           <div className="icons">
-            <SearchIcon className="icon"/>
-            <AccountCircleIcon className="icon"/>
-            <PhoneIcon className="icon"/>
+            <SearchIcon className="icon" />
+            <AccountCircleIcon className="icon" />
+            <PhoneIcon className="icon" />
           </div>
         </div>
       </header>
