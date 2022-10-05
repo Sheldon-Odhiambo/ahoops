@@ -9,14 +9,19 @@ const Footer = () => {
     <>
       <footer>
         <div className="container container-flex">
-            <div className="icons">
-                <TwitterIcon />
-                <LinkedInIcon />
-                <InstagramIcon />
-                <FacebookIcon />
-
-            </div>
-
+          <div className="icons">
+            <TwitterIcon className="icon" />
+            <LinkedInIcon className="icon" />
+            <InstagramIcon className="icon" />
+            <FacebookIcon className="icon" />
+          </div>
+          <div className="line">
+            <hr />
+            <hr />
+          </div>
+          <div className="copyright">
+            <p>All rights reserved &copy;</p>
+          </div>
         </div>
       </footer>
     </>
