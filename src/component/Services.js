@@ -1,6 +1,6 @@
 import React from "react";
 import "../Css/Service.css";
-import Card from "./Combined"
+import Card from "./ServiceCard"
 
 const Services = () => {
   return (
@@ -8,6 +8,7 @@ const Services = () => {
       <h1>Our Services</h1>
       <div className="solution">
         <Card />
+        
       </div>
     </>
   );

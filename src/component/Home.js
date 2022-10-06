@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import ImageHome from "./Home.jpg";
+import ImageHome from "./homeimg.jpg";
 import "../Css/HomeAbout.css";
 import Same from "./Same";
 
@@ -9,13 +9,13 @@ const Home=()=>{
     return (
       <>
         <Same
-          title="Life made easy"
-          text="We all are living in the 21st century, an
-        era of developing technology, and things which were seen as impossible
-        in the past are now seen as a daily part of all our lives. Technology is
-        the application of scientific knowledge for practical purposes,
-        especially in industry. Imagine spending one day with no source of
-        technology."
+          title="Hoops with Ahoops"
+          text="Over the Past years Basketball has really evolved sports in general
+          thus we aim to produce all round athletes that can compete anywhere
+          in the world with the right age bracket killing the norm of athletes
+          faking their age in order for them to compete world wide thus we
+          ought to stop all thi for them to compete with individuals from
+          other countries same age as them, We are AHoops"
           imgsrc={ImageHome}
           btn="Read More"
         />
