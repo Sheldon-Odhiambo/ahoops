@@ -1,0 +1,29 @@
+.contact{
+    /* background-color: purple; */
+    max-width: 990px;
+    margin:2em auto;
+}
+input{
+    padding: .7em; 
+    margin-bottom: 1em;
+    border: 0.2em double var(--mainColor);
+    width: 100%;
+    font-size: 1.1rem;
+    outline: none;
+}
+label{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .contact{
+        width: 80%;
+        margin: 1em auto;
+    }
+    input{
+    padding: .3em; 
+    border: 0.1em solid var(--mainColor);
+    width: 100%;
+}
+}

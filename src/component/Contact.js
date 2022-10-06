@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "../Css/Contact.css";
 
 const Contact = () => {
   return (
