@@ -6,7 +6,6 @@
 }
 .contentBox{
     width:40%;
-    /* background-color: blueviolet; */
     padding-left: 1em;
 }
 .contentBox h1{
@@ -33,7 +32,7 @@
     background-clip: content-box, border-box;
 }
 .readmore{
-    display: inline-block;
+    display:inline-block;
     font-size: 1rem;
     padding: .5em;
     color: #301934;
