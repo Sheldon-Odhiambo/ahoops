@@ -1,11 +1,33 @@
 import React from 'react';
-import Footer from "../component/Footer";
+import { NavLink } from 'react-router-dom';
+import ImageHome from "./Home.jpg";
+import "../Css/HomeAbout.css";
+
 
 const Home=()=>{
     return (
       <>
-        <h1>Home page</h1>
-        <Footer />
+        <div className="mainsection">
+          <div className="contentBox">
+            <h1>Life made easy</h1>
+            <p>
+              We all are living in the 21st century, an era of developing
+              technology, and things which were seen as impossible in the past
+              are now seen as a daily part of all our lives. Technology is the
+              application of scientific knowledge for practical purposes,
+              especially in industry. Imagine spending one day with no source of
+              technology.
+            </p>
+            <div className="btnBox">
+              <div className='btn'>
+                <NavLink to="/about" className="readmore">Read More</NavLink>
+              </div>
+            </div>
+          </div>
+          <div className='img'>
+            <img src={ImageHome} alt="home" />
+          </div>
+        </div>
       </>
     );
 }

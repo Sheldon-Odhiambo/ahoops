@@ -1,0 +1,12 @@
+.icons{
+    margin-right: 2em;
+    float:center;
+}
+.copyright{
+    text-align:center;
+    color: whitesmoke;
+     margin-right: .5em;
+}
+@media screen and (max-width:1024px){
+    
+}

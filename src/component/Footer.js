@@ -5,9 +5,9 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import { FiInstagram } from "react-icons/fi";
+import { BsTwitter } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import "../Css/FooterStyle.css"
 
 function CopyRight() {
@@ -51,9 +51,11 @@ const Footer = () => {
           }}
         >
           <Container maxWidth="sm">
-            <FiInstagram />
-            <BsFacebook />
-            <CopyRight />
+            <FiInstagram className="icons" />
+            <BsTwitter className="icons" />
+            <BsFacebook className="icons" />
+            <BsLinkedin className="icons" />
+            <CopyRight className="copyright" />
           </Container>
         </Box>
       </Box>
