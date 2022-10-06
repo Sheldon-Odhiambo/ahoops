@@ -1,9 +1,14 @@
 import React from "react";
+import "../Css/Service.css";
+import Card from "./Combined"
 
-const Services= () => {
+const Services = () => {
   return (
     <>
-      <h1></h1>
+      <h1>Our Services</h1>
+      <div className="solution">
+        <Card />
+      </div>
     </>
   );
 };
