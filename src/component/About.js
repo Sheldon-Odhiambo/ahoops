@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import ImageAbout from "./About.jpg";
+import ImageAbout from "./About.png";
 import Same from "./Same";
 import "../Css/HomeAbout.css";
 
@@ -8,13 +8,8 @@ const About = () => {
   return (
     <>
       <Same
-        title="Learn more about us"
-        text="We all are living in the 21st century, an
-        era of developing technology, and things which were seen as impossible
-        in the past are now seen as a daily part of all our lives. Technology is
-        the application of scientific knowledge for practical purposes,
-        especially in industry. Imagine spending one day with no source of
-        technology."
+        title="Why Hoop with us"
+        text="We are a skills centered academy that aims to produce all round athletes through basketball and life skills training."
         imgsrc={ImageAbout}
         btn="Know More"
       />
