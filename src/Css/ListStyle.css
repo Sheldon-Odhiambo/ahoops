@@ -1,5 +1,5 @@
 :root {
-  --mainColor: blueviolet;
+  --mainColor: rgba(248, 48, 12, 0.973);
 }
 header {
   background-color: var(--mainColor);
