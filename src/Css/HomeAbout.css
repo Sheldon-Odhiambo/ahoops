@@ -1,6 +1,7 @@
 .mainsection{
     display: flex;
     /* background-color: aqua; */
+    /* background-image: "url(//bckimg.jpeg"; */
     justify-content: space-around;
     align-items:center;
 }
@@ -35,7 +36,7 @@
     display:inline-block;
     font-size: 1rem;
     padding: .5em;
-    color: #301934;
+    color: rgb(141, 141, 12);
     text-decoration: none;
 }
 .img{
