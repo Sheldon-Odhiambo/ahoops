@@ -5,7 +5,7 @@ import Card from "./ServiceCard"
 const Services = () => {
   return (
     <>
-      <h1>Our Services</h1>
+      <h1>A HOOPS SERVICES</h1>
       <div className="solution">
         <Card />
         
