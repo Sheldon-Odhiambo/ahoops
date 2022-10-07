@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
-import Logo from "./A.png";
+import Logo from "./Hoops logo.png";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import PhoneIcon from "@mui/icons-material/Phone";
 import "../Css/ListStyle.css";
