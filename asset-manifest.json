@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ahoops/static/css/main.f353994a.css",
+    "main.js": "/ahoops/static/js/main.742fc1a3.js",
+    "static/media/homeimg.jpg": "/ahoops/static/media/homeimg.6d174b4ebb0d05f89cc8.jpg",
+    "static/media/About.png": "/ahoops/static/media/About.ce4078967a697114510d.png",
+    "static/media/service.jpg": "/ahoops/static/media/service.4e526c10f34a7b3da6ca.jpg",
+    "static/media/Hoops logo.png": "/ahoops/static/media/Hoops logo.b5b1724cb1fb5a3d77e3.png",
+    "index.html": "/ahoops/index.html",
+    "main.f353994a.css.map": "/ahoops/static/css/main.f353994a.css.map",
+    "main.742fc1a3.js.map": "/ahoops/static/js/main.742fc1a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f353994a.css",
+    "static/js/main.742fc1a3.js"
+  ]
+}
