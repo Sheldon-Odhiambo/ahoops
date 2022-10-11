@@ -6,7 +6,7 @@ const Combined = () => {
 	return (
 		<>
 			<div className="card">
-				<h2>Best in Class to field Basketball training</h2>
+				<h2>A Hoops Drills</h2>
 				<img src={ImageHome} alt="solution1" className="serviceimage" />
 				<p>
 				Training · Shooting · Ball Handling · Offensive Moves (for Guards and Post Players) · Footwork · Rebounding · Defense · Speed and Strength Development.
