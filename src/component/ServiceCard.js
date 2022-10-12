@@ -2,7 +2,7 @@ import React from "react";
 import ImageHome from "./service.jpg";
 import { NavLink } from "react-router-dom";
 
-const Combined = () => {
+const Combined = ({service}) => {
 	return (
 		<>
 			<div className="card">

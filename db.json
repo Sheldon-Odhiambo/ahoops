@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "services": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "A Hoop Drills",
+      "description": "Handle Drills",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.stack.com%2Fa%2Fgreat-handles%2F&psig=AOvVaw1rJqgE5Va2mDeBSuGWQ9g2&ust=1665693506957000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCOiU___F2_oCFQAAAAAdAAAAABAE"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "A Hoop Drills",
+      "description": "Shooting Drills",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.si.com%2Fnba%2Fwarriors%2Fnews%2Fsteph-curry-follows-suga-from-bts-on-instagram&psig=AOvVaw2EHrgUsxUC3FDK9QZnVqqo&ust=1665692850961000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCLDglcrD2_oCFQAAAAAdAAAAABAD"
+    },
+    {
+      "id": 3,
+      "title": "A Hoop Drills",
+      "description": "Strength and conditioning",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.coachesclipboard.net%2FConditioning.html&psig=AOvVaw33sYE6xP2oiKgXm3aS4uEv&ust=1665569940378000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCMil8Nr51_oCFQAAAAAdAAAAABAD"
+    },
+    {
+      "id": 4,
+      "title": "A Hoop Drills",
+      "description": "Agility",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNSE11he0LlA&psig=AOvVaw1MOJgA6V41prMhqCi0P95X&ust=1665570006800000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCNDAl_n51_oCFQAAAAAdAAAAABAD"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
